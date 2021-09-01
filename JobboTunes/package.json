@@ -1,0 +1,25 @@
+{
+  "name": "jobbo-tunes",
+  "version": "0.0.0",
+  "description": "JobboTunes",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "express": "~4.17.1",
+    "path": "~0.12.7",
+    "rc-menu": "^9.0.12",
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1",
+    "ts-loader": "~7.0.1",
+    "typescript": "~3.8.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "~3.3.11"
+  },
+  "scripts": {
+    "build": "webpack-cli ./app.tsx --config webpack-config.js"
+  },
+  "devDependencies": {}
+}
